@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+body{
+    background-color: grey;
+    font-family: Square Peg;
+    font-weight: bolder;
+    font-size: 2em;
+    text-align: center;
+}
+
+#heading{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form{
+    color: black;
+    text-align: center;
+}
+
+div #button:hover{
+    color: aqua;
+}

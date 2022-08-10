@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body id="form">
+    <div id="heading">
+        <h2>Feedback Form</h2>
+    </div>
+    <fieldset>
+        <form action="\sever.php" method="post">
+        <div>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter First Name" required>
+        </div>
+        <div>
+            <label for="secondName">Second Name:</label>
+            <input type="text" id="secondName" name="secondName" placeholder="Enter Second Name" required>
+        </div>
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="gender">Male
+            <input type="radio" id="gender" name="gender">Female
+        </div>
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+        <div>
+            <label for="phone_number">Phone Number:</label>
+            <input type="number" id="phone_number" name="phone_number" placeholder="+91" maxlength="10" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="xyz@example.com" required>
+        </div>
+        <div>
+            <label for="feedback">Feedback: </label>
+            <textarea id="feedback" name="feedback" maxlength="100" placeholder="Enter your Message Here..." cols="30"
+                rows="5"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="tnc" required>Click here to accept <a href="tnc.html">Terms and Conditions</a>.
+        </div>
+        <div id="button">
+            <a href="result.html"><input type="submit" onclick="alert('Thank You for your Feedback')"></a>
+            <input type="reset">
+        </div>
+
+        </form>
+</body>
+
+</html>

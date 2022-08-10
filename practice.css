@@ -1,0 +1,31 @@
+body{
+    background-color: bisque;
+}
+.link{
+    background-color: red;
+    color: blue;
+    display: inline-block;
+    font-display: none;
+    
+}
+#white{
+    color: white;
+}
+.highlight{
+    background-color: yellow;
+}
+#grey{
+    background-color: grey;
+    color: white;
+}
+.align{
+    text-align: center;
+}
+.background{
+    background-color: aquamarine;
+}
+.bigfont{
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
